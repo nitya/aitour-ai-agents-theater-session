@@ -8,11 +8,19 @@ Welcome!! You are here because you want to be able to _deliver_ this session at 
 
 | Resources | Links | Description |
 |:---|:---|:---|
-| 1. Presentation Slides | | Speaker deck used for the presentation |
-| 2. Presentation Video | | Speaker training video for guidance|
-| 3. Code Samples | | Folder with notebooks to run demos |
-| 4. Other Assets | | Additional tips or support content for customization|
+| 1. Presentation Slides | **TBD** | Speaker deck used for the presentation |
+| 2. Presentation Video | **TBD** | Speaker training video for guidance|
+| 3. Code Samples | [Link](https://aka.ms/aitour/WRK552) | Reuse the WRK552 lab in Codespaces |
+| 4. Other Assets | [Link](./AIAgentService-TheaterSession.png) | Illustrated recap useful for blogs or social|
 | | | |
+
+### Setup
+
+1. You will reuse resources from [WRK552](https://aka.ms/aitour/wrk552)
+1. You will need a personal GitHub account.
+1. You will need an active Azure subscription.
+1. Setup an hour before - launch Codespaces and provision Azure.
+1. Do a quick walkthrough - verify all demos are working.
 
 ### Delivery
 
@@ -27,8 +35,8 @@ Here is a recommended flow - but feel free to adapt to your pace and style.
 
 | Duration    | Description 
 --------------|-------------
-1 min | Introduce yourself & Set the stage ("Imagine this scenario...")
 1 min | Introduce Azure AI Agent Service ("3 things you need to know ..")
+1 min | Introduce yourself & Set the stage ("Imagine this scenario...")
 4 min | Demo 1 - "Create & play with your first agent on Azure AI Foundry"
 4 min | Demo 2 - "Ground agent responses in data using knowledge tools"
 4 min | Demo 3 - "Orchestrate and execute complex flows with action tools"
