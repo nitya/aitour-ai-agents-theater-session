@@ -9,24 +9,37 @@ https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/QR
 
 ---
 
-## 1. Setup Environment
+## 1. Preview: Theater Session Docs
 
-To run the code samples or preview the instructions in a browser, you will need to setup your development environment. For convenience, this repo is instrumented with a `devcontainer.json` making it easy to just launch this in GitHub Codespaces for a prebuilt environment.
+This theater session repository is instrumented with a _devcontainer_ to make it easier to view the theater session walkthrough tutorial. We recommend forking this repo to customize the contents if you want to reuse them elsewhere. **To preview the training docs**:
 
+1. You must have a personal GitHub account to complete this step.
 1. Fork [this repo](https://github.com/microsoft/aitour-ai-agents-theater-session) to your personal profile.
-1. Open the fork in a browser - then click the **Code** button
+1. Open the fork in a browser - click the **Code** button on the repo page.
 1. Navigate to the **Codespaces** tab - then click "+" to start a new codespace.
 1. Wait till ready - you will see a **Visual Studio Code** editor with termninal.
+1. Run **`mkdocs serve`** in the terminal - select the "Open in Browser" option to preview.
 
-_You are now ready to explore!_.
+_You should be viewing this page! The site has built-in search and dark mode for convenience_.
 
-## 2. Preview The Docs
+---
 
-The demos are documented in the form of a tutorial that can be useful to both learners (post-talk exploration) and instructors (pre-talk preparation). To view these:
+## 2. Setup: Theater Session Labs
 
-1. Make sure you launched GitHub Codespaces (see above)
-1. Open the VS Code terminal when ready and type `mkdocs serve`
-1. You will get the option to preview in browser or in local editor
-1. Select browser - a new tab will open with a web preview of the docs site.
+The theater session is meant to be demo-driven. You will be using the resources from the [WRK552](https://aka.ms/aitour/wrk552) repo for the interactive segments. 
 
-You can now use this site to navigate the content. Note that it has a built-in **search** feature and **dark mode** options for convenience.
+1. You must ALSO have an Azure subscription to complete this step.
+1. Fork [this repo](https://github.com/microsoft/build-your-first-agent-with-azure-ai-agent-service-workshop/) to your personal profile.
+1. Follow the [Setup: Self-Guided Learners](https://microsoft.github.io/build-your-first-agent-with-azure-ai-agent-service-workshop/introduction-self-guided/) instructions on your fork.
+1. The [Deploy the Azure Resources](https://microsoft.github.io/build-your-first-agent-with-azure-ai-agent-service-workshop/introduction-self-guided/#deploy-the-azure-resources) step takes time - plan ahead!
+1. Run through the workshop once to verify everything is working for the various Lab modules.
+
+!!! tip "Things to keep in mind"
+
+    1. GitHub Codespaces takes a few minutes to launch. _Launch both sessions ahead of time_.
+    1. Lab walkthrough takes 30 minutes post launch. _Do setup at least an hour before theater session_.
+    1. Set GitHub Codespaces idle time to more than 30 minutes. _This prevents need for relaunch while you wait_.
+
+---
+
+_You are now ready to walk through the training!_.
